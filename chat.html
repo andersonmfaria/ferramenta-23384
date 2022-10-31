@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloco de Anotações - 23384</title>
+    <link rel="stylesheet" href="./CSS/chat.css">
+</head>
+<body>
+        <div class="main">
+            <img class="urbam" src="./img/logo_b.svg" alt="">
+            <h1>CHAT</h1></br>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">ANOTAÇÕES</a></li>
+                    <li><a href="pendencia.html">PENDENCIA</a></li>
+                    <li><a href="chat.html">CHAT</a></li>
+                </ul>
+            </nav>
+            <div class="box">
+                <div class="textfield">
+                    <label for="nome">NOME</label>
+                    <input type="text" name="nome" cols="50px" placeholder="Nome do Munícipe">
+                    <label for="bairro">BAIRRO</label>
+                    <input type="number" name="bairro" cols="50px" placeholder="Bairro do Munícipe" maxlength="50">
+                    <label for="protocolo">PROTOCOLO</label>
+                    <input type="number" name="protocolo"  cols="15px" placeholder="Nº DE PROTOCOLO">
+                    <label for="obs">OBS</label>
+                    <textarea name="obs" cols="46" rows="12" placeholder="Observação" size="500"></textarea>
+                </div>
+                <input class="btn-limpa" type="button" value="LIMPAR DADOS" onClick="window.location.reload()">
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloco de Anotações - 23384</title>
+    <link rel="stylesheet" href="./CSS/pendencia.css">
+</head>
+<body>
+        <div class="main">
+            <img class="urbam" src="./img/logo_b.svg" alt="">
+            <h1>PENDENCIA</h1></br>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">ANOTAÇÕES</a></li>
+                    <li><a href="pendencia.html">PENDENCIA</a></li>
+                    <li><a href="chat.html">CHAT</a></li>
+                </ul>
+            </nav>
+            <div class="box">
+                <div class="textfield">
+                    <label for="nome">NOME</label>
+                    <input type="text" name="nome" cols="50px" placeholder="Nome do Munícipe">
+                    <label for="cpf">CPF</label>
+                    <input type="number" name="cpf" cols="15px" placeholder="CPF do Munícipe" maxlength="11">
+                    <label for="protocolo">PROTOCOLO</label>
+                    <input type="number" name="protocolo"  cols="15px" placeholder="Nº DE PROTOCOLO">
+                    <label for="ocorrencia">OCORRENCIA</label>
+                    <input type="text" name="ocorrencia" cols="50px" placeholder="PROBLEMA OCORRIDO">
+                    <label for="obs">OBS</label>
+                    <textarea name="obs" cols="46" rows="12" placeholder="Observação" size="500"></textarea>
+                </div>
+                <input class="btn-limpa" type="button" value="LIMPAR DADOS" onClick="window.location.reload()">
+            </div>
+        </div>
+</body>
+</html>
